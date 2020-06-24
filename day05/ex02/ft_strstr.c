@@ -59,26 +59,3 @@ char    *ft_strstr(char *str, char *to_find)
   }
   return 0;
 }
-
-int main()
-{
-  char str1[20] = "muneer is a eier";
-  char str2[10] = "";
-  char *res;
-
-  res = ft_strstr(str1, str2); 
-
-   
-  ft_putchar('\n');
-  
-  const char haystack[20] = "muneer is a eier";
-  const char needle[10] = "";
-  char *ret;
-
-  ret = strstr(haystack, needle);
-
-  printf("The substring is: %s\n", ret);
-
-  return 0;
-}
-
