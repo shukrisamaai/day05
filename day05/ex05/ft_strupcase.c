@@ -19,11 +19,3 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
-
-int   main(void)
-{
-  char str[] = "asdf qWeRtY ZXCV";
-  
-  printf("%s\n", ft_strupcase(str));
-  return (0);
-}
