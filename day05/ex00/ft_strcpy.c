@@ -15,12 +15,3 @@ char *ft_strcpy(char *dest, char *src)
     return dest;
     
 }
-int main()
-{
-    char src[11] = "helloworld";
-    char dest[11];
-    
-    ft_strcpy(dest, src);
-    printf("%s\n", dest);
-    return 0;
-}
