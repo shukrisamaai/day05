@@ -15,13 +15,3 @@ int ft_strcmp(char *s1, char *s2)
 	return (s1[a] - s2[a]);
 
 }
-
-int main()
-{
- char str[] = "B";
- char to_find[] = "A";
- 
- printf("%d\n", ft_strcmp(str, to_find));
- 
- return(0);
-}
